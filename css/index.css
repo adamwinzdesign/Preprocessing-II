@@ -168,6 +168,27 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2rem;
+}
+.navigation h1 {
+  align-self: flex-start;
+}
+.navigation nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 60%;
+}
+.navigation nav a {
+  font-size: 2rem;
+  padding: 1rem;
+  text-decoration: none;
+  color: black;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -178,6 +199,12 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .header {
+  margin: 30px 0;
+}
+.home .header h2 {
+  margin-top: 30px;
 }
 .home .content-section {
   margin: 30px 0;
